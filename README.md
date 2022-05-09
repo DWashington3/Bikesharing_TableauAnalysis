@@ -1,8 +1,8 @@
 # City Bike-sharing Analysis using Tableau 
 # Overview
-In this project, I analyzed bike-sharing data from New York City during the summertime, particularly the month of August. I wanted to gain an idea of what type of user frequents a bike-sharing business, what was the average bike checkout time, which genders utilized bike-sharing more, and what is their average trip duration. The analysis I completed was vital to modeling a bike-sharing business for a proposal in the city of Des Moines.
+In this project, I analyzed bike-sharing data from New York City during the summertime, focused in the month of August. I wanted to gain an idea of what type of user frequents a bike-sharing business, what was the average bike checkout time, which gender utilized bike-sharing more, and what is their average trip duration. The analysis I completed was vital to modeling a bike-sharing business for a proposal in the city of Des Moines.
 ## Preprocessing
-Prior to creating the visualizations in Tableau, I used the Pandas dependencies in Python to convert the "trip duration" to a date-time format. In addition, in Tableau, I created a 'calculated field' that converts numbers to strings in the context of gender.  In the calculated field, I created a for loop that looped through the numbers 0, 1, and 2. Each number corresponds to a string :
+Prior to creating the visualizations in Tableau, I used the Pandas library in Python to convert the "trip duration" to a date-time format. In addition, in Tableau, I created a 'calculated field' that converts numbers to strings in the context of gender.  In the calculated field, I created a for loop that looped through the numbers 0, 1, and 2. Each number corresponds to a string :
 
 **Number to String**
 
